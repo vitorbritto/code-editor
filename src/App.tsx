@@ -1,5 +1,5 @@
 import { Box } from '@mui/material'
-import CodeEditor from './CodeEditor'
+import CodeEditor from './components/CodeEditor'
 
 const App = () => {
   return (

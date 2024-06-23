@@ -1,7 +1,7 @@
 import { useState, MouseEvent } from 'react'
 import { Box, Button, Menu, MenuItem, Stack, Typography } from '@mui/material'
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown'
-import { LANGUAGE_VERSIONS } from './constants/languageVersions'
+import { LANGUAGE_VERSIONS } from '../constants/languageVersions'
 
 const languages = Object.entries(LANGUAGE_VERSIONS)
 

@@ -3,7 +3,7 @@ import { Box, Stack, Typography } from '@mui/material'
 import Editor from '@monaco-editor/react'
 import LanguageSelector from './LanguageSelector'
 import Output from './Output'
-import { editorOptions } from './constants/editorOptions'
+import { editorOptions } from '../constants/editorOptions'
 
 const CodeEditor = () => {
   const editorRef = useRef()

@@ -1,6 +1,6 @@
-import { Button, Box, Typography, Stack } from '@mui/material'
-import { executeCode } from './api'
 import { useState } from 'react'
+import { Button, Box, Typography, Stack } from '@mui/material'
+import { executeCode } from '../api'
 
 interface OutputProps {
   editorRef: any
